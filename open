@@ -1,0 +1,19 @@
+ReadStream
+
+Request (u32 size) -> Response (data[uint size])
+
+WriteStream
+
+Request (u32 size, data[uint size]) -> Response (none? error handling?)
+
+ReadWriteStream
+
+mode: 
+u8 mode
+0: read
+u32 size
+1: write
+u32 size
+data
+
+todo write rust lib and client/server example
