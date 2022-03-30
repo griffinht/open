@@ -1,3 +1,17 @@
+primitives
+8
+u8
+16
+u16
+32
+u32
+64
+u64
+boolean: u8 0 false 1 true
+string8: u8 byte length utf8 string
+string16
+string32
+
 ReadStream
 
 Request (u32 size) -> Response (data[uint size])
