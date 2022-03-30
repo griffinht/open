@@ -8,9 +8,25 @@ u32
 64
 u64
 boolean: u8 0 false 1 true
-string8: u8 byte length utf8 string
-string16
-string32
+
+array8: u8 byte length plus data of u8 length
+array16:
+array32:
+
+array8string: u8 byte length utf8 string
+array16string
+array32string
+
+
+
+
+Request/Response
+
+Request sha256(location) -> Response (array32)
+
+
+
+Streams
 
 ReadStream
 
